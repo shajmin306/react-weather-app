@@ -6,7 +6,11 @@ function App() {
       <h1>Weather App</h1>
       <footer>
         This a project was coded by Shajmin Rahman and is open sourced on{" "}
-        <a href="#" target="_blank">
+        <a
+          href="https://github.com/shajmin306/react-weather-app"
+          target="_blank"
+          rel="noreferrer"
+        >
           Github
         </a>
       </footer>
