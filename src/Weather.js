@@ -9,9 +9,10 @@ export default function Weather() {
           type="search"
           placeholder="Search for a city..."
           className="form-control"
+          autoFocus="on"
         />
 
-        <input type="submit" value="search" className="btn btn-primary" />
+        <input type="submit" value="search" className="btn btn-primary w-100" />
       </form>
       <h1>New York</h1>
       <ul>
