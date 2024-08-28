@@ -26,6 +26,11 @@
   list-style: none;
 }
 
+.Weather img {
+  width: 64px;
+  height: 64px;
+}
+
 .Weather.temperature {
   font-weight: bold;
   font-size: 64px;
