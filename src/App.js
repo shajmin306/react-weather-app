@@ -7,7 +7,15 @@ function App() {
       <div className="container">
         <Weather defaultCity="New York" />
         <footer>
-          This a project was coded by Shajmin Rahman and is open sourced on{" "}
+          This a project was coded by{" "}
+          <a
+            href="https://github.com/shajmin306"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Shajmin Rahman{" "}
+          </a>{" "}
+          and is open sourced on{" "}
           <a
             href="https://github.com/shajmin306/react-weather-app"
             target="_blank"
