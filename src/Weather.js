@@ -4,7 +4,6 @@ import "./Weather.css";
 import WeatherInfo from "./WeatherInfo";
 
 export default function Weather(props) {
-  const [ready, setReady] = useState(false);
   const [weatherData, setWeatherData] = useState({ ready: false });
   const [city, setcity] = useState(props.defaultCity);
   function handleResponse(response) {
@@ -19,8 +18,6 @@ export default function Weather(props) {
       description: response.data.condition.description,
       iconUrl: `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`,
     });
-
-    setReady(true);
   }
 
   function search() {
