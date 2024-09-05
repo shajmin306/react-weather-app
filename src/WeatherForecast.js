@@ -6,7 +6,7 @@ export default function WeatherForecast(props) {
     <div className="WeatherForecast">
       <div className="row">
         <div className="col">
-          <div className="WeatherForecastDay">Thursday</div>
+          <div className="WeatherForecastDay">Thurs</div>
           <img src={props.data.iconUrl} alt={props.data.description} />
           <div className="WeatherForecastTemperatures">
             <span className="WeatherForecastMinTemp">10°C |</span>
