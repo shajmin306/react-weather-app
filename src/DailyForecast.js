@@ -3,14 +3,14 @@ import React from "react";
 export default function DailyForecast(props) {
   return (
     <div>
-      <div className="WeatherForecastDay">{props.data[0].dt}</div>
+      <div className="WeatherForecastDay">{props.data.time}</div>
       <img src={props.data.iconUrl} alt={props.data.description} />
       <div className="WeatherForecastTemperatures">
         <span className="WeatherForecastMinTemp">
-          {Math.round(props.data[0].temp.min)}°C|
+          {Math.round(props.data.temp.min)}°C|
         </span>
         <span className="WeatherForecastMaxTemp">
-          {Math.round(props.data[0].temp.max)}°C{" "}
+          {Math.round(props.data.temp.max)}°C{" "}
         </span>
       </div>{" "}
     </div>
